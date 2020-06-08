@@ -1,8 +1,9 @@
 module github.com/jenkins-x-labs/trigger-pipeline
 
 require (
+	github.com/google/btree v1.0.0 // indirect
 	github.com/jenkins-x/golang-jenkins v0.0.0-20180919102630-65b83ad42314
-	github.com/jenkins-x/jx v1.3.981-0.20200605070345-2c10fe601319
+	github.com/jenkins-x/jx/v2 v2.1.59
 	github.com/magiconair/properties v1.8.0
 	github.com/pkg/errors v0.8.1
 	github.com/spf13/cobra v0.0.5
